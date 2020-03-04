@@ -1,5 +1,35 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+.clock {
+  margin: 0 auto;
+  width: 20vw;
+  height: 20vw;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: relative;
+  padding: 10px;
+}
+
+.pointer {
+  position: absolute;
+  width: 10vw;
+  height: 5px;
+  top: 50%;
+  background-color: black;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.5s;
+}
+
+.hour {
+}
+
+.minute {
+}
+
+.second {
 }
