@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>CSS Variables</title>
+</head>
+
+<body>
+  <h1>CSS Variables</h1>
+  <div class="settings-container">
+    <div class="settings-item">
+      <label>
+        Spacing
+        <input autocomplete="off" type="range" id="spacing" min="10" max="100" value="24" data-unit="px">
+      </label>
+    </div>
+    <div class="settings-item">
+      <label>
+        Blur
+        <input autocomplete="off" type="range" id="blur" min="0" max="10" value="2" data-unit="px">
+      </label>
+    </div>
+    <div class="settings-item">
+      <label>
+        Base Color
+        <input autocomplete="off" type="color" id="color-accent" value="#CDDC39">
+      </label>
+    </div>
+  </div>
+  <div class="image-container">
+    <div class="image-item">
+      <img src="images/unicorn.png">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
